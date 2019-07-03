@@ -14,19 +14,19 @@ public class ReverseStringTest {
 
     }
     @Test
-    public void ReversetheGivenString()
+    public void ReversetheTwoWordsinGivenString()
     {
         String result=rev.Reverse("hello world");
         assertEquals("dlrow olleh",result);
     }
     @Test
-    public void ReversetheGivenString2()
+    public void ReversetheGivenString()
     {
        String result=rev.Reverse("hello");
        assertEquals("olleh",result);
     }
     @Test
-    public void ReversetheGivenString3()
+    public void GivenStringisNull()
     {
         String result=rev.Reverse(null);
         assertEquals("null not allowed",result);

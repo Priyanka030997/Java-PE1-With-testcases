@@ -13,26 +13,26 @@ public class LetterTest {
         let=new Letter();
     }
     @Test
-    public void FindCharacterisUppercaseorLowercase()
+    public void CharacterisUppercase()
     {
         String result=let.FindCharacter('S');
         assertEquals("Capital Letter",result);
     }
 
     @Test
-    public void FindCharacterisUppercaseorLowercase2()
+    public void CharacterisLowercase()
     {
         String result=let.FindCharacter('r');
         assertEquals("Small Letter",result);
     }
     @Test
-    public void FindCharacterisUppercaseorLowercase3()
+    public void CharacterisDigit()
     {
         String result=let.FindCharacter('8');
         assertEquals("Digit",result);
     }
     @Test
-    public void FindCharacterisUppercaseorLowercase4()
+    public void CharacterisSpecialCharacter()
     {
         String result=let.FindCharacter('/');
         assertEquals("Special Character",result);

@@ -21,14 +21,14 @@ public class VowelconsonantsTest {
     }
 
     @Test
-    public void FindCharacterisVowelorConsonants2()
+    public void FindCharacterisDigit()
     {
         String result=vow.FindVowelConsonants("9");
         assertEquals("Error",result);
     }
 
     @Test
-    public void FindCharacterisVowelorConsonants3()
+    public void FindCharacterisSpecialCharacter()
     {
         String result=vow.FindVowelConsonants("S@");
         assertEquals("Consontant Error",result);

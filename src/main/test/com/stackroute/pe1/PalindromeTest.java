@@ -13,7 +13,7 @@ public class PalindromeTest {
         pal=new Palindrome();
     }
     @Test
-    public void FindPalindromeorNot() {
+    public void PalindromeAndSumOfEvenNumbersisGreater() {
         // Arrange
         // App app = new App();
         //Act
@@ -23,7 +23,7 @@ public class PalindromeTest {
     }
 
     @Test
-    public void FindPalindromeorNot2() {
+    public void PalindromeAndSumOfEvenNumbersisLess() {
         // Arrange
         // App app = new App();
         //Act
@@ -32,7 +32,7 @@ public class PalindromeTest {
         assertEquals("Palindrome and the sum of even numbers is less than 25", result);
     }
     @Test
-    public void FindPalindromeorNot3() {
+    public void GivenNumberisNotPalindrome() {
         // Arrange
         // App app = new App();
         //Act

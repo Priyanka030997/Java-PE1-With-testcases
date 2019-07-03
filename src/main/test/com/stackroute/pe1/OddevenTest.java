@@ -13,7 +13,7 @@ Oddeven odd;
         odd=new Oddeven();
     }
     @Test
-    public void FindGivenisOddorEven() {
+    public void GivenNumberisOdd() {
         // Arrange
         // App app = new App();
         //Act
@@ -22,7 +22,7 @@ Oddeven odd;
         assertEquals("Tom", result);
     }
     @Test
-    public void FindGivenisOddorEven2() {
+    public void GivenNumberisEven() {
         // Arrange
         // App app = new App();
         //Act
@@ -31,7 +31,7 @@ Oddeven odd;
         assertEquals("Jerry", result);
     }
     @Test
-    public void FindGivenisOddorEven3() {
+    public void GivenNumberisnotinLimit() {
         // Arrange
         // App app = new App();
         //Act

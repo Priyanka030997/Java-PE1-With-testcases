@@ -14,21 +14,21 @@ public class SumTest {
         obj=new Sum();
     }
     @Test
-    public void SumOfNumbers()
+    public void SumOfPositiveNumbers()
     {
         int a1[]={10,3,2,5};
         int result=obj.sumofnumbers(a1);
         assertEquals(20,result);
     }
     @Test
-    public void SumOfNumbers2()
+    public void SumOfNumbers()
     {
         int a2[]={10,3,2,-15};
         int result=obj.sumofnumbers(a2);
         assertEquals(0,result);
     }
     @Test
-    public void SumOfNumbers3()
+    public void SumOfNegativeandPositiveNumbers()
     {
         int a3[]={0,3,2,-15};
         int result=obj.sumofnumbers(a3);

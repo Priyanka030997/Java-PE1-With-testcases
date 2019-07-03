@@ -15,20 +15,20 @@ public class SortingTest {
 
     }
     @Test
-    public void SorttheNumbers()
+    public void SorttheNumbersAndSumisNotGreater()
     {
         String result=sort.NumberSorting(234534);
         assertEquals("False",result);
     }
 
     @Test
-    public void SorttheNumbers2()
+    public void SorttheNumbersAndSumisGreater()
     {
         String result=sort.NumberSorting(264534);
         assertEquals("True",result);
     }
     @Test
-    public void SorttheNumbers3()
+    public void SorttheNegativeNumbers()
     {
         String result=sort.NumberSorting(-234534);
         assertEquals("Error",result);

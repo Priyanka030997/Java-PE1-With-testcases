@@ -14,7 +14,7 @@ public class StringRepeatTest {
         repeat=new StringRepeat();
     }
     @Test
-    public void SplitString() {
+    public void SplitStringandRepeat() {
         // Arrange
         // App app = new App();
         //Act
@@ -33,7 +33,7 @@ public class StringRepeatTest {
     }
 
     @Test
-    public void SplitString3() {
+    public void SplitStringwithSpecialCharacter() {
         // Arrange
         // App app = new App();
         //Act

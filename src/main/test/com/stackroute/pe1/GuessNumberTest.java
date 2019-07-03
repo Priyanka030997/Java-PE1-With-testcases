@@ -14,20 +14,20 @@ public class GuessNumberTest {
         guess=new GuessNumber();
     }
     @Test
-    public void FindGuessNumber()
+    public void GuessNumberislessthanOriginalNumber()
     {
         String result=guess.checkwithoriginalnumber(26);
         assertEquals("Number guessed is less than original number",result);
     }
     @Test
-    public void FindGuessNumber2()
+    public void GuessNumberismorethanOriginalNumber()
     {
         String result=guess.checkwithoriginalnumber(60);
         assertEquals("Number guessed is more than original number",result);
     }
 
     @Test
-    public void FindGuessNumber3()
+    public void GuessNumberMatchesOriginalNumber()
     {
         String result=guess.checkwithoriginalnumber(50);
         assertEquals("Number guessed matches the original number",result);
